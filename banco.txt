@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS ecoconsumo;
+USE ecoconsumo;
+
+CREATE TABLE IF NOT EXISTS produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    barcode VARCHAR(20) NOT NULL,
+    product_name VARCHAR(255),
+    ecoscore VARCHAR(5),
+    nutriscore VARCHAR(5),
+    data_salvo TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);	
+
+select * from produtos;
+
+#drop database ecoconsumo;

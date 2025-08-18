@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EcoConsumo - Avaliação de Impacto Ecológico</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>EcoConsumo</h1>
+
+    <!-- Abas de filtros -->
+    <div class="tabs">
+      <button class="active" onclick="switchTab('barcode')">Código</button>
+      <button onclick="switchTab('nome')">Nome</button>
+      <button onclick="switchTab('categoria')">Categoria</button>
+      <button onclick="switchTab('nutriscore')">Nutri-Score</button>
+      <button onclick="switchTab('ecoscore')">Eco-Score</button>
+    </div>
+
+    <!-- Campos de busca -->
+    <div id="searchFields">
+      <label class="search-label" for="barcode">Código de barras do produto:</label>
+      <input type="text" id="barcode" placeholder="Digite o código de barras">
+      <button class="action" id="searchBtn">Buscar</button>
+    </div>
+
+    <button class="redirect-btn" onclick="window.location.href='https://world.openfoodfacts.org/';">
+      🌿 Saiba Mais - Open Food Facts 🌿
+    </button>
+
+    <div id="output"></div>
+    <div class="saved-products" id="savedProductsArea" style="display:none;">
+      <h3>Meus Produtos Salvos</h3>
+      <ul class="saved-list" id="savedList"></ul>
+      <div class="media-impacto" id="mediaImpacto"></div>
+    </div>
+  </div>
+
+  <div id="mapWrapper">
+    <div id="mapMini">
+      <img src="icone-image-maps.jpg" alt="Mapa" id="mapIconImage">
+      <iframe id="mapFrame" frameborder="0" style="border:0; border-radius:8px; display:none;" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="script.js">
+
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+type: collection.insomnia.rest/5.0
+name: hackaton
+meta:
+  id: wrk_82b747c8d0f448499a9f3ed164f1e3c0
+  created: 1755039928555
+  modified: 1755039928555
+  description: ""
+collection:
+  - url: http://localhost:8080/produto
+    name: /produto
+    meta:
+      id: req_490b9ee2add848f293695044e9796994
+      created: 1755039932951
+      modified: 1755040791135
+      isPrivate: false
+      description: ""
+      sortKey: -1755039932951
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"product_name": "Pera",
+        	"barcode": "123456789",
+        	"ecoscore": "C",
+        	"nutriscore": "C"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/produto
+    name: /produto
+    meta:
+      id: req_c229a35c8a02495dad6f341241eaea33
+      created: 1755039994400
+      modified: 1755040185909
+      isPrivate: false
+      description: ""
+      sortKey: -1755039994400
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/produto/123456
+    name: /produto/id
+    meta:
+      id: req_73285266ec8a4aa5b408c5e6d11c6bf7
+      created: 1755040328334
+      modified: 1755040606131
+      isPrivate: false
+      description: ""
+      sortKey: -1755040328334
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_922ec0ebd81ec9f23f095de0b9a55c4917e803f3
+    created: 1755039928559
+    modified: 1755039928559
+environments:
+  name: Base Environment
+  meta:
+    id: env_922ec0ebd81ec9f23f095de0b9a55c4917e803f3
+    created: 1755039928557
+    modified: 1755039928557
+    isPrivate: false
