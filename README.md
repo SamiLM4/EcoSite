@@ -1,3 +1,15 @@
+# COLÉGIOS UNIVAP - UNIDADE CENTRO
+
+## PROJETO- EcoConsumo- Avaliação de Produtos Sustentáveis 
+
+Este documento apresenta a documentação do projeto EcoConsumo, desenvolvido durante o hackathon de 2025, organizado pela UNIVAP CENTRO. O projeto teve como objetivo solucionar problemas ambientais, buscando criar uma solução inovadora para o problema.
+
+Sua finalidade é desenvolver o uso da tecnologia para solucionar desafios relacionados à ODS 13- Ação Contra a Mudança Global do Clima.
+A ODS 13 propõe adotar medidas urgentes para combater as mudanças climáticas e seus impactos. Isso inclui reduzir emissões de gases de efeito estufa, fortalecer a resiliência a
+eventos climáticos extremos e promover a educação e conscientização sobre a crise climática.
+
+A escolha do tema justifica-se pelo seu potencial de contribuição para o desenvolvimento de um mercado mais sustentável, bem como pela possibilidade de implementação prática em redes de supermercados.
+
 # EcoConsumo API — Especificação (proposta)
 
 > **Escopo**: esta especificação propõe uma API REST para atender as funcionalidades expostas na interface do EcoConsumo (busca por **código de barras**, **nome**, **categoria**, **Nutri‑Score**, **Eco‑Score**, gestão de **produtos salvos** e **média de impacto**; além de integração opcional com **mapa** de locais). A UI observada sugere consumo de dados de produtos alimentares (ex.: código de barras) e filtros por scores nutricionais/ambientais.
@@ -607,3 +619,15 @@ components:
 
 * Caso o frontend também consuma uma **API pública de alimentos** por código de barras, esta API pode atuar como **BFF** (Backend‑for‑Frontend): agregando/normalizando resultados, aplicando cache e enriquecendo com métricas de impacto ambiental.
 * Campos e exemplos acima são ilustrativos; ajuste conforme o modelo de dados real do seu catálogo.
+
+# Integrantes:  
+- Alícia Lanza Pacheco
+-Caio Souza Alves
+-Enzo Raphael Boquimpani de Moura Nascimento
+-Leonardo Martinelli de Oliveira Lima
+-Lucas Marassi Cipriano Pereira
+-Manuella de Oliveira
+-Maria Lúcia Souza Pinto
+-Mário Guimarães Borrel
+-Murilo Gonçalves de Lima
+-Téo Camargo Barbosa Pádua
