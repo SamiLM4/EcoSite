@@ -8,6 +8,9 @@ Sua finalidade é desenvolver o uso da tecnologia para solucionar desafios relac
 A ODS 13 propõe adotar medidas urgentes para combater as mudanças climáticas e seus impactos. Isso inclui reduzir emissões de gases de efeito estufa, fortalecer a resiliência a
 eventos climáticos extremos e promover a educação e conscientização sobre a crise climática.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c91fe95-e820-4b91-8962-0698cc022bdc" />
+
+
 A escolha do tema justifica-se pelo seu potencial de contribuição para o desenvolvimento de um mercado mais sustentável, bem como pela possibilidade de implementação prática em redes de supermercados.
 
 # EcoConsumo API — Especificação (proposta)
